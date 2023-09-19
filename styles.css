@@ -249,11 +249,128 @@ article .guillemet-fin {
 .pedagogie-img {
     height: 90%;
     width: 80%;
-    margin-top: 30px;
+    margin-top: 35px;
     background-image: url("./77779327-b017-47be-b71e-b66e1bbb064a.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
     border-radius: 20px;
    box-shadow: 15px -15px var(--main-color);
+}
+.nos-respect {
+    
+        color: var(--main-color);
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 60px;
+}
+.respect {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.respect-content {
+    padding-left: 30px;
+    margin:auto;
+    width: 100%;
+}
+
+.respect-enum-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 70px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+.respect-enum {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    width: 100%;
+}
+.respect-title {
+    color: var(--main-color);
+    font-size: 1.7em;
+}
+.respect-text {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.voir-plus {
+    color: white;
+    background-color: var(--main-color);
+    width: 30%;
+    border: 1px solid var(--main-color);
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 35px;
+   
+}
+.respect-num{
+    background: rgba(248, 25, 25, 0.3);
+    color: var(--main-color);
+    border-radius: 70%;
+    width: 50%;
+    height: 60%;
+    text-align: center;
+    font-size: 2em;
+}
+.chiffres-header {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.nos-chiffres-content {
+    background-color: var(--main-color);
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.chiffre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.chiffre-value {
+    font-size: 2em;
+    font-weight: bold;
+}
+.chiffre-text{
+    font-weight: lighter;
+}
+footer{
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    margin-top: 100px;
+}
+
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 100%;
+}
+#voir-plus, .coordonnees , .newsletter {
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-end{
+    background-color: var(--main-color);
+    color: white;
+}
+.footer-end p {
+    margin-left: 50px;
 }
